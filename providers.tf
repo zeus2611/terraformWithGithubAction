@@ -4,6 +4,7 @@ provider "google" {
   zone    = "us-central1-a"
 }
 
+
 terraform {
   backend "gcs" {
     bucket = "terraform-githubactions-integration"
